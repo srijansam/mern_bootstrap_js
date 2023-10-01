@@ -1,0 +1,18 @@
+#row1 {
+  background: aliceblue;
+}
+#title {
+  margin-left: 12cm;
+  margin-right: auto;
+}
+#para {
+  width: 15cm;
+  margin-left: 6.5cm;
+  text-align: center;
+}
+#btn2 {
+  align-items: center;
+}
+#para1 {
+  text-align: center;
+}

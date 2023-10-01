@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="task2.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task2</title>
+  </head>
+  <body class="full">
+    <div class="container">
+      <div class="row" id="upperrow" >
+        <div id="title" class="col-sm "><h2 >Builderz</h2></div>
+        <div class="col-sm p-2 m-2 d-flex">
+          <img src="time-management.png" id="sticker" alt="image">
+          <P>Opening hour<br>Mon-Fri 8:00-9:00</P>
+        </div>
+        <div class="col-sm p-2 m-2 d-flex">
+          <img src="call.png" id="sticker" alt="image">
+          <p>Contact US <br>12345667</p>
+        </div>
+        <div class="col-sm p-2 m-2 d-flex">
+          <img src="email.png" id="sticker" alt="image">
+          <p >US <br>fgrg@gmail.com </p>
+        </div>
+      </div>
+      <!-- navbar -->
+      <div class="row" id="upperrow">
+        <nav id="navbar1" class="navbar navbar-expand-lg mx-auto">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active text-white" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Service</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Project</a>
+                </li>
+                <li class="nav-item dropdown ">
+                  <a
+                    class="nav-link dropdown-toggle text-white"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Pages
+                  </a>
+                  <ul class="dropdown-menu text-white">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Contact</a>
+                </li>
+                <form class="container-fluid justify-content-start">
+                  <button id="button1" class="btn btn-outline-success me-2 text-white" type="button" >Get a Quote</button>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- navbar ends -->
+    </div>
+      <!-- carousel begins -->
+      <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="builder1.jpg"id="img1" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block text-dark">
+                <p>We are profesional</p>
+                <h2>For your dream project</h2>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="builder2.jpg" id="img1" class="d-block w-100 " alt="...">
+              <div class="carousel-caption d-none d-md-block text-dark">
+                <p>We are profesional</p>
+                <h2>For your dream project</h2>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="builder3.jpg"id="img1" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block text-dark">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- carousel ends -->
+        <div class="row">
+          <div class="col-sm pt-1 px-0 m-0">
+            <div class="card" id="card1">
+              <div class="card-body d-flex">
+                <img src="engineer.png" id="sticker" alt="image " >
+                <span>
+                <h5 class="card-title text-warning">Expert Worker</h5>
+                <p class="card-text text-warning">With supporting text below as a natural lead-in to additional content.</p>
+              </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm pt-1 px-0 m-0 ">
+            <div class="card " id="card2">
+              <div class="card-body d-flex">
+                <img src="new-york.png" id="sticker"  alt="image " >
+                <span>
+                <h5 class="card-title text-dark">Quality Work</h5>
+                <p class="card-text text-dark">With supporting text below as a natural lead-in to additional content.</p>
+              </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm pt-1 px-0 m-0 pb-4">
+            <div class="card" id="card1">
+              <div class="card-body d-flex ">
+                <img src="service.png" id="sticker" alt="image " >
+                <span>
+                <h5 class="card-title text-warning " >24-hr support </h5>
+                <p class="card-text text-warning">With supporting text below as a natural lead-in to additional content.</p></span>
+                
+                
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+  </body>
+</html>

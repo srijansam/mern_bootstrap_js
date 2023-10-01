@@ -1,0 +1,33 @@
+#upperrow {
+  background: rgb(255, 221, 0);
+}
+#navbar1 {
+  background: rgb(1, 1, 64);
+  width: 25cm;
+}
+#button1 {
+  margin-left: 8.6cm;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#img1 {
+  height: 70vh;
+  width: auto;
+}
+.full {
+  background-color: rgb(170, 170, 170);
+}
+#card1 {
+  background: rgb(1, 1, 64);
+}
+#card2 {
+  background: rgb(255, 221, 0);
+}
+#sticker {
+  height: 2cm;
+  width: 2cm;
+}
+#title {
+  padding-left: 2.5cm;
+  padding-top: 2cm;
+}
